@@ -6,25 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"/>
   </head>
   <body>
     <main>
-        <div class="content">
-      <h2>Generate a <span>random password</span></h2>
-      <p>Never use an insecure password again.</p>
-    </div>
-       <div class="button">
-      <img src="images/flash.png" alt="image of lighting for showing the effect" />
-      <a href="#">Generate passwords</a>
-    </div>
+      <div class="content">
+        <h2>Generate a <span>random password</span></h2>
+        <p>Never use an insecure password again.</p>
+      </div>
+      <div class="button">
+        
+          <button type="submit" id="btn" onclick="displayPassword()"><img
+            src="images/flash.png"
+            alt="lighting effect">Generate passwords</button>
+      </div>
 
       <div class="password-container">
-        <input type="text" id="password" name="password" required />
-        <input type="text" id="password" name="password" required />
-        <input type="text" id="password" name="password" required />
-        <input type="text" id="password" name="password" required />
+          <h3 class="password-display" id="passworddisplay1"><img src="images/threedots.png" alt="three dots"></h3>
+          <h3 class="password-display" id="passworddisplay2"><img src="images/threedots.png" alt="three dots"></h3>
+          <h3 class="password-display" id="passworddisplay3"><img src="images/threedots.png" alt="three dots"></h3>
+          <h3 class="password-display" id="passworddisplay4"><img src="images/threedots.png" alt="three dots"></h3>
       </div>
+
     </main>
   </body>
 </html>
