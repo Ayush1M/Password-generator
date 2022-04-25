@@ -9,7 +9,8 @@
     <script src="script.js" defer></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
@@ -17,20 +18,55 @@
         <h2>Generate a <span>random password</span></h2>
         <p>Never use an insecure password again.</p>
       </div>
+
+      <form class="form">
+        <div class="amount">
+          <label for="characterAmountNumber">Number of Characters</label>
+          <input
+            type="range"
+            min="1"
+            max="30"
+            value="10"
+            id="characterAmountrange"/>
+          <input type="number" min="1" max="30" id="characterAmountNumber" />
+        </div>
+
+        <div class="checkbox">
+          <label for="includeUppercase">Include Uppercase</label>
+          <input type="checkbox" id="includeUppercase" />
+        </div>
+
+        <div class="checkbox">
+          <label for="includeNumbers">Include Numbers</label>
+          <input type="checkbox" id="includeNumbers" />
+        </div>
+
+        <div class="checkbox">
+          <label for="includeSymbols">Include Symbols</label>
+          <input type="checkbox" id="includeSymbols" />
+        </div>
+      </form>
+
       <div class="button">
-        
-          <button type="submit" id="btn" onclick="displayPassword()"><img
-            src="images/flash.png"
-            alt="lighting effect">Generate passwords</button>
+        <button type="submit" id="btn" onclick="displayPassword()">
+          <img src="images/flash.png" alt="lighting effect" />Generate passwords
+        </button>
       </div>
 
       <div class="password-container">
-          <h3 class="password-display" id="passworddisplay1"><img src="images/threedots.png" alt="three dots"></h3>
-          <h3 class="password-display" id="passworddisplay2"><img src="images/threedots.png" alt="three dots"></h3>
-          <h3 class="password-display" id="passworddisplay3"><img src="images/threedots.png" alt="three dots"></h3>
-          <h3 class="password-display" id="passworddisplay4"><img src="images/threedots.png" alt="three dots"></h3>
+        <h3 class="password-display" id="passworddisplay1">
+          <img src="images/threedots.png" alt="three dots" />
+        </h3>
+        <h3 class="password-display" id="passworddisplay2">
+          <img src="images/threedots.png" alt="three dots" />
+        </h3>
+        <h3 class="password-display" id="passworddisplay3">
+          <img src="images/threedots.png" alt="three dots" />
+        </h3>
+        <h3 class="password-display" id="passworddisplay4">
+          <img src="images/threedots.png" alt="three dots" />
+        </h3>
       </div>
-
     </main>
   </body>
 </html>

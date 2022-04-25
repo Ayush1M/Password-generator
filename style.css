@@ -15,8 +15,8 @@ main{
     width: 50%;
     min-width: 500px;
     margin: 0 auto;
-    padding-top: 6em;
-    margin-top: 4em;
+    padding-top: 3em;
+    margin-top: 1em;
     padding-bottom: 1.6em;
 }
 
@@ -41,6 +41,26 @@ p{
 
 .content{
     margin-left: 2em;
+}
+
+.form{
+    margin: 2em 0;
+    color: white;
+}
+
+.amount{
+    margin-left: 2em;
+    display: flex;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+input[type = "checkbox"]{
+    margin-right: 10em;
 }
 
 img{
@@ -74,7 +94,8 @@ button{
     width: 70%;
     border-radius: .3em;
     margin-bottom: 1em;
-    padding: .3em auto;
+    padding: .4em auto;
 }
+
 
 
