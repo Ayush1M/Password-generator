@@ -9,10 +9,11 @@
  * [What I Learned](#what-i-learned) 
 
 # Overview of the Project
-The project is based on carousel which is a slideshow which helps to cycle through the series of content. This project focuses on applying the concepts of HTML, CSS and Javascript.
+The project is used to generate a random unique password. This project focuses on applying the concepts of HTML, CSS and Javascript.
 
 ### Goal of the Project
-* The Goal of this project is to generate a random password which contains Uppercase, lowercase, and symbols.
+* The Goal of this project is to generate a random unique password which contains Uppercase, Lowercase, Numbers and Symbols.
+* To apply the JS concepts like for loop, using DOM, functions.
 
 ## Screenshot
 
@@ -26,4 +27,5 @@ The project is based on carousel which is a slideshow which helps to cycle throu
 ## What I Learned
 * Learned about DOM.
 * Learned about functions.
-* Learned about if/else statements.
+* Learned about For loops.
+
