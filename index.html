@@ -19,16 +19,16 @@
         <p>Never use an insecure password again.</p>
       </div>
 
-      <form class="form">
+      <form class="form" id="passwordGeneratorForm">
         <div class="amount">
           <label for="characterAmountNumber">Number of Characters</label>
           <input
             type="range"
             min="1"
-            max="30"
+            max="20"
             value="10"
-            id="characterAmountrange"/>
-          <input type="number" min="1" max="30" id="characterAmountNumber" />
+            id="characterAmountRange"/>
+          <input type="number" min="1" max="20" id="characterAmountNumber" />
         </div>
 
         <div class="checkbox">
@@ -45,14 +45,15 @@
           <label for="includeSymbols">Include Symbols</label>
           <input type="checkbox" id="includeSymbols" />
         </div>
+
+        <div class="button">
+          <button type="submit" id="btn" onclick="displayPassword()">
+            <img src="images/flash.png" alt="lighting effect" />Generate passwords
+          </button>
+        </div>
       </form>
 
-      <div class="button">
-        <button type="submit" id="btn" onclick="displayPassword()">
-          <img src="images/flash.png" alt="lighting effect" />Generate passwords
-        </button>
-      </div>
-
+      
       <div class="password-container">
         <h3 class="password-display" id="passworddisplay1">
           <img src="images/threedots.png" alt="three dots" />
