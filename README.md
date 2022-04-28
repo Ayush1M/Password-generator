@@ -28,4 +28,5 @@ The project is used to generate a random unique password. This project focuses o
 * Learned about DOM.
 * Learned about functions.
 * Learned about For loops.
+* Learned about how to choose a random character for password using arrays.
 
