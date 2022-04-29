@@ -94,11 +94,22 @@ button{
     justify-content: center;
     text-align: center;
     background-color: #4B5563;
-    width: 280px;
+    width: 250px;
     height: 3.2rem;
     border-radius: .3em;
     margin-bottom: 1em;
-    padding: .4em auto;
+    margin-left: .4em;
+}
+
+@media (max-width: 1150px){
+    .password-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .password-display{
+        width: 450px;
+    }
 }
 
 
