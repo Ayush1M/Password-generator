@@ -17,6 +17,12 @@ The project is used to generate a random unique password. This project focuses o
 
 ## Screenshot
 
+### Desktop
+
+### Mobile
+
+### Output
+
 
 
 ## Technologies I Used
