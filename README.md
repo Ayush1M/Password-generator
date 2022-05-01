@@ -21,11 +21,11 @@ The project is used to generate a random unique password. This project focuses o
 
 ![](./images/passwordgeneratordesktop.png)
 
-### Mobile
+#### Mobile
 
 ![](./images/passwordgeneratormobile.png)
 
-### Output
+#### Output
 
 ![](./images/passwordgeneratoroutput.png)
 
